@@ -16,7 +16,7 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
   
   // Function to display search results
   function displayResults(data) {
-    let resultsDiv = document.getElementById('response');
+    var resultsDiv = document.getElementById('response');
     resultsDiv.innerHTML = ''; // Clear previous results
     
     if (data.count > 0) {
